@@ -1,17 +1,19 @@
 :root {
-  --black: #020303;
-  --dark-grey: #171c1c;
-  --light-grey: #a7b9b7;
-  --primary: #5cc1bb;
-  --primary-dark: #41aaa3;
-  --secondary: hsl(15deg 100% 62%);
-  --secondary-light: hsl(15deg 100% 70%);
-  --text-color: #f5fffe;
+  --black: #3E2723;  /* Deep brown shade */
+  --dark-grey: #6A4A42;  /* Medium brown shade */
+  --light-grey: #D7CCC8;  /* Light brown shade, like baked bread */
+  --primary: #FFAB91;  /* Salmon shade */
+  --primary-dark: #BF360C;  /* Deep reddish-brown shade, like roasted coffee beans */
+  --secondary: #FFE082;  /* Soft yellow, think of a fresh lemon pie */
+  --secondary-light: #FFF59D;  /* Light yellow, think of a gentle lemon zest */
+  --text-color: #FAFAFA;  /* Slightly off-white, like whipped cream */
   --space: 16px;
   --font-size: 18px;
 }
 
 body {
+  background-image: repeating-radial-gradient(circle at center, #FFF3E0, #FFF3E0 10px, transparent 10px, transparent 20px);
+  background-size: 20px 20px;  /* This increases the spacing between the pattern repeats */
   background-color: var(--primary-dark);
   color: var(--text-color);
   font-size: var(--font-size);
